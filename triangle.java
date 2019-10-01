@@ -14,7 +14,7 @@ public class Triangle {
 
         double area = (base * height) / 2;
 
-        System.out.println("The area of a triangle with a height and base of " + height + " and " + base + " is " + area + ".");
+        System.out.printf("%s %.1f %s %.1f %s %.1f %s", "The area of a triangle with a height and base of", height,  "and", base, "is", area, ".");
 
         in.close();
     }
